@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-itens{
+    display: block;
+    margin: 10px;
+}
+
+.toHide{
+    display: none;
+}
+
+.TituloLista{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 15px;
+}
+
+.itemLista{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.RemoverItem{
+    display: inline-block;
+}

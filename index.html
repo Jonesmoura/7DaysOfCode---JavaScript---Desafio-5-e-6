@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 e 6</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+    <p>Deseja adicionar algum item a lista de compras?
+    <select name="" id="AddlistaSimouNao">
+        <option value="sim">sim</option>
+        <option value="nao">não</option>
+    </select>
+    <button onclick="mostrarlista()" id="ok-btn">OK</button>
+    <div id="PerguntaExclusao" class="toHide">
+        <p class="RemoverItem">Você deseja excluir algum item da lista?</p>
+        <select name="" id="listaExcluirSouN" class="">
+            <option value="sim">sim</option>
+            <option value="nao">não</option>
+        </select>
+        <button onclick="mostrarFormExclusao()">OK</button>
+    </div>
+    <div data-exclusao class="toHide">
+        <labe>Grupo:
+            <select name="" id="grupoExclusao">
+                <option value="frutas">frutas</option>
+                <option value="verduras">verduras</option>
+                <option value="doces">doces</option>
+                <option value="itensBasicos">Itens Básicos</option>
+            </select>
+        </labe>
+        <label for="">Item:<input type="text" name="" id="itemExclusao"></label>
+        <button onclick="definirGrupo()">Excluir</button>
+
+    </div>
+    </p>
+    <p class="InputsItemNovo">
+        <label for="nome" class="info-itens">Nome:<input type="text" data-nome></label>
+        <label for="grupo" class="info-itens">grupo: 
+            <select name="" id="grupo">
+                <option value="frutas">frutas</option>
+                <option value="verduras">verduras</option>
+                <option value="doces">doces</option>
+                <option value="itensBasicos">Itens Básicos</option>
+
+            </select>
+        </label>
+        <button onclick="addItem()">salvar</button>
+    </p>
+    <p id="pLista" class="toHide">
+
+
+
+    </p>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
