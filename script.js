@@ -1,25 +1,25 @@
-var frutas = []
-var verduras = []
-var doces = []
-var itensBasicos = []
-var grupos = [
+let frutas = []
+let verduras = []
+let doces = []
+let itensBasicos = []
+let grupos = [
     'frutas',
     'verduras',
     'doces',
     'itensBasicos'
 ]
 
-var AddlistaSimouNao = document.querySelector('#AddlistaSimouNao')
-var dadosEntrada = document.querySelector('.InputsItemNovo')
-var nomeItem = document.querySelector('[data-nome]')
-var grupo = document.querySelector('#grupo')
-var resposta = document.querySelector('#pLista')
-var okBtn = document.querySelector('#ok-btn')
-var perguntaExclusao = document.querySelector('#PerguntaExclusao')
-var dadosExclusao = document.querySelector('[data-exclusao]')
-var listaExcluirSouN = document.querySelector('#listaExcluirSouN')
-var itemExclusao = document.querySelector('#itemExclusao')
-var grupoExclusao = document.querySelector('#grupoExclusao')
+let AddlistaSimouNao = document.querySelector('#AddlistaSimouNao')
+let dadosEntrada = document.querySelector('.InputsItemNovo')
+let nomeItem = document.querySelector('[data-nome]')
+let grupo = document.querySelector('#grupo')
+let resposta = document.querySelector('#pLista')
+let okBtn = document.querySelector('#ok-btn')
+let perguntaExclusao = document.querySelector('#PerguntaExclusao')
+let dadosExclusao = document.querySelector('[data-exclusao]')
+let listaExcluirSouN = document.querySelector('#listaExcluirSouN')
+let itemExclusao = document.querySelector('#itemExclusao')
+let grupoExclusao = document.querySelector('#grupoExclusao')
 
 //function para criar ul com o array grupos
 
